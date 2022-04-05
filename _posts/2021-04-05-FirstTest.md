@@ -1,8 +1,9 @@
 ---
 title: 你好，世界！
 date: 2022-04-05 21:55:00 +0800
-categories: [项目]]
-tags: [电赛]
+date: 2022-03-26 10:34:00 +0800
+categories: [随笔]
+tags: [生活]
 pin: true
 author: 俞睿
 
@@ -18,6 +19,8 @@ image:
   src: /assets/blog_res/2021-03-30-hello-world.assets/test1/2.png
   alt: 说明
 ---
+
+
 
 # 测距和大小估算～ 
 
