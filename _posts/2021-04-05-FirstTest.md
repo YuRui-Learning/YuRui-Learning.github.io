@@ -1,5 +1,5 @@
 ---
-title: 你好，世界！
+title: 非接触物体形状大小识别
 date: 2022-04-05 21:55:00 +0800
 categories: [随笔]
 tags: [生活]
@@ -15,6 +15,8 @@ mermaid: true
 image:
   src: /assets/blog_res/2021-03-30-hello-world.assets/test1/1.png
   alt: 具体图示
+
+image:
   src: /assets/blog_res/2021-03-30-hello-world.assets/test1/2.png
   alt: 说明
 ---
