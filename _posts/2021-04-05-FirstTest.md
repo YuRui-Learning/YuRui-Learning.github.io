@@ -72,6 +72,7 @@ for threshold_index in range(3):                         #通过索引遍历阈�
                     #通过索引得到其对应颜色,而对于圆形和矩形的颜色形状检测类似，由于有内置函数，所以不细写了，对于他们颜色可以通过判断LAB的上下限得到其对应颜色。
 
 ```
+
 # 球体识别～ 
 对于球体识别，可以考虑模块识别，比如ncc算法，FAST算法KCF算法，但是我们用tensorflow lite完成识别，而用google训练的经典模型，跑起来帧率非常低，非常影响运行速率。所以我们选择用edge impulse和teacheable machine 这两个软件去跑出训练模型tflite和labbels用来识别且达到不错的效果。由于需要按键区分，这个value0是GPIO0当其 感受到低电平后进入神经网络识别
 ```python
@@ -103,6 +104,7 @@ labels = [line.rstrip('\n') for line in open("labels.txt")]
          uart.write("volleyball\r")
          a=3
 ```
+
 # 随动控制～ 
 而在舵机随动控制中，我们选择用OpenMV连接舵机利用PID实现随动控制的效果，基本方式是寻找出色块中央，通过返回的色块中央与图像中心的偏差经过KP运算，再利用误差在时间上累积乘以KI得到控制量的大小，来控制舵机角度的变化。该步骤也是用按键控制，该按键是GPIO6用于识别功能，
 ```python
