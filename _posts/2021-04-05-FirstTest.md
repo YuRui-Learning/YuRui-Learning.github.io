@@ -132,4 +132,4 @@ labels = [line.rstrip('\n') for line in open("labels.txt")]
            uart.write("angle2:%d \r\n"%tilt_servo.angle())
 ```
 
-![1](/assets/blog_res/2021-03-30-hello-world.assets/test1/2.png)
+![2](/assets/blog_res/2021-03-30-hello-world.assets/test1/2.png)
