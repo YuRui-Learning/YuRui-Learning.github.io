@@ -16,3 +16,4 @@ vendor
 node_modules
 package-lock.json
 Gemfile.lock
+_posts/2022-04-05-hello-world.md
