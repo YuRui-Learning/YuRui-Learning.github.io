@@ -15,8 +15,6 @@ mermaid: true
 image:
   src: /assets/blog_res/2021-03-30-hello-world.assets/test1/1.png
   alt: 具体图示
-
-
 ---
 
 
