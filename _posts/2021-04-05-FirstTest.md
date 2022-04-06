@@ -8,7 +8,7 @@ author: 俞睿
 
 toc: true
 comments: true
-typora-root-url: ../../tomstillcoding.github.io
+typora-root-url: ../../yurui-learning.github.io
 math: false
 mermaid: true
 
@@ -16,9 +16,7 @@ image:
   src: /assets/blog_res/2021-03-30-hello-world.assets/test1/1.png
   alt: 具体图示
 
-image:
-  src: /assets/blog_res/2021-03-30-hello-world.assets/test1/2.png
-  alt: 说明
+
 ---
 
 
@@ -133,3 +131,5 @@ labels = [line.rstrip('\n') for line in open("labels.txt")]
            print("角度2",tilt_servo.angle())
            uart.write("angle2:%d \r\n"%tilt_servo.angle())
 ```
+
+![1](/assets/blog_res/2021-03-30-hello-world.assets/test1/2.png)
