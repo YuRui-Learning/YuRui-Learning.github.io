@@ -8,7 +8,7 @@ author: 俞睿
 
 toc: true
 comments: true
-typora-root-url: ../../yurui-learning.github.io
+typora-root-url: ../../tomstillcoding.github.io
 math: false
 mermaid: true
 
