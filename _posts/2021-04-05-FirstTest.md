@@ -1,5 +1,5 @@
 ---
-title: 非接触物体形状大小识别
+title: 空白
 date: 2022-04-06 21:55:00 +0800
 categories: [随笔]
 tags: [生活]
@@ -8,7 +8,7 @@ author: 俞睿
 
 toc: true
 comments: true
-typora-root-url: ../../tomstillcoding.github.io
+typora-root-url: ../../yurui-learning.github.io
 math: false
 mermaid: true
 
